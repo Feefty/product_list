@@ -1,0 +1,25 @@
+{
+  "name": "product_list",
+  "version": "1.0.0",
+  "description": "Display a interactive product list",
+  "homepage": "https://github.com/Feefty/product_list#readme",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Feefty/product_list/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feefty/product_list.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --env-file-if-exists=.env  index.js",
+    "start": "node --env-file-if-exists=.env index.js "
+  },
+  "dependencies": {
+    "graphql": "^16.11.0",
+    "graphql-yoga": "^5.15.2"
+  }
+}
