@@ -2,6 +2,8 @@
 
 This is a frontend technical assessment to evaluate React development skills through building an interactive product creation history list similar to Feefty App.
 
+![interface](interface.png)
+
 ## Overview
 
 Build a responsive React application that displays a "Creation history" list of products.
